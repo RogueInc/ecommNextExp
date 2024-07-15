@@ -1,0 +1,26 @@
+.firstline{
+    display: flex;
+    align-items: center;
+
+}
+.rating {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5%;
+    align-items: center;
+    border-color: #222;
+    border-width: 1px;
+    justify-content: center;
+    margin: 0.5em;
+    padding: 0 0.2em;
+    gap:0.2em;
+    justify-content: center;
+  }
+  .secondline{
+    padding-left: 2.5em;
+  }
+  .thirdline{
+
+    gap:2em;
+    padding-left: 2.5em;
+  }

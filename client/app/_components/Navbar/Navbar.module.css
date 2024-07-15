@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    width: 100vw;
+    position: fixed;
+    margin-top: 0.8rem;
+    justify-content: space-between;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0)
+    );
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
+  }
+  .menu h2 {
+    text-decoration: none;
+    color: #0d120f;
+  }
+  .menu {
+    display: flex;
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+  .logo {
+    padding: 1rem;
+    color: #0d120f;
+  }

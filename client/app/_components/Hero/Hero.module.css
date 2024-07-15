@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&family=Merriweather&family=Modern+Antiqua&family=Rajdhani&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@1,100&display=swap');
+.Hero{
+    height: 200vh;
+    width: 100vw;
+}
+/* .exploreimgs{
+    height: 40vh;
+    display: flex;
+}
+.exploremen{
+    flex: 2;
+}
+.exploremen img{
+    z-index: -10;
+    position: relative;
+}
+.explorewomen{
+flex: 2;
+position: relative;
+} */
+
+.explorevideo{
+    height: 60vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    z-index: -10;
+}
+.explorevideo video{
+    width: 100%;
+    object-fit: contain;
+   transform: translateY(-20%);
+    z-index: -10;
+    position: relative;
+}
+
+/* .exploretitle{
+    z-index: 10;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 4em;
+    font-weight: 600;
+    color: #fff;
+} */
+.exploretitlevid{
+    z-index: 10;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 4.2em;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Modern Antiqua', serif;
+}
+
+/* .exploremen2{
+    flex: 2;
+}
+.exploremen2 img{
+    z-index: -10;
+    position: relative;
+    filter: blur(10px);
+}
+.explorewomen2{
+    flex: 2;
+}
+.explorewomen2 img{
+    z-index: -10;
+    position: relative;
+    filter: blur(10px);
+} */

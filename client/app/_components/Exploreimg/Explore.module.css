@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&family=Merriweather&family=Modern+Antiqua&family=Rajdhani&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@1,100&display=swap');
+.exploreimgs {
+  height: 40vh;
+  display: flex;
+}
+.exploremen {
+  flex: 2;
+  overflow: hidden;
+}
+.exploremen img {
+  z-index: -10;
+  position: relative;
+}
+.explorewomen {
+  flex: 2;
+  overflow: hidden;
+}
+.exploremen2 {
+  flex: 2;
+}
+.exploremen2 img {
+  z-index: -10;
+  position: relative;
+  filter: blur(10px);
+}
+.exploremen:hover img{
+scale:1.2;
+transition:all 1s ease;
+}
+.explorewomen2 {
+  flex: 2;
+}
+.explorewomen2 img {
+  z-index: -10;
+  position: relative;
+  filter: blur(5px);
+}
+.explorewomen:hover img{
+    scale:1.2;
+    transition:all 1s ease;
+    }
+.exploretitle {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  font-weight: 600;
+  color: #fff;
+  font-family: 'Modern Antiqua', serif;
+
+}

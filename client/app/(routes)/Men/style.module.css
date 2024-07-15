@@ -1,0 +1,33 @@
+.men {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 20vh;
+  z-index: -10;
+}
+.catcard img {
+  z-index: -10;
+}
+.catcard {
+  height: 100vh;
+  width: 16.66%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #222;
+  overflow: hidden;
+}
+
+.catcard h2 {
+  background-image: linear-gradient(to right,#524f4f, #b8b0b0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.catcard:hover img {
+  scale: 1.5;
+  transition: 1s all ease;
+}
